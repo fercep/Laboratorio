@@ -1,0 +1,244 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #fff;
+}
+
+#contenido, header, footer {
+	width: 65%;
+	margin: auto;
+	
+}
+
+.encabezado{
+	height: 100px;
+	background: #B9AFAC;
+    border-radius: 20px 20px 0 0;
+}
+
+.nombre{
+	width:  250px 100px;
+	background-color: #B9AFAC;
+	float: left;
+	font-size: 30px;
+	margin: 5px;
+	padding: 10px;
+   
+}
+
+.logo{
+	width: 260px;
+	background-color: rgb(47, 47, 51);
+	height: 80px;
+	float: right;
+	margin: 10px;
+	color: aliceblue;
+}
+
+nav{
+	width: auto;
+	background-color: rgb(241, 180, 14);
+	border-radius: 0 0 20px 20px;
+	padding: 10px;
+}
+
+nav ul{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	list-style: none;
+	
+}
+
+/*nav ul li {
+    height: 30px;
+	float: left;
+	padding: 0px 30px;
+	margin-top: auto;
+*/
+nav ul li a{
+	padding: 20px;
+	display: block;
+	color: rgb(10, 10, 10);
+	text-decoration: none;
+    justify-content: center;
+	border-right: 1px solid whitesmoke;
+	border-width: 3px;
+	font-size: 18px;
+	padding-right: 50px;
+		
+}
+
+
+
+#articulos{
+	width: 65%;
+	display: flex;
+	justify-content: center;
+}
+
+/*#art1{
+	display: flex;
+	align-content: space-around;
+}
+
+#art2{
+	display: flex;
+	flex-flow: column;
+}*/
+
+article .imagen img{
+    width: 25%;
+	height: 100px;
+	border: solid black 1px;
+	border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+article{
+	background: linear-gradient(0deg, rgba(51,51,51,1) 0%, rgba(174,174,181,1) 35%, rgba(193,196,196,1) 100%);
+	margin: 10px;
+	
+
+}
+
+
+.texto p {
+	font-size: 14px;
+}
+
+h2 {
+	padding: 10px;
+    font-size: 12px;
+    text-align: center;
+    color: beige;
+}
+
+#titulos{
+	background: #222221;
+	margin: 0;
+	border-radius: 0;
+    width: 100%;
+}
+
+
+
+article .texto{
+	width: 65%;
+	padding: 0;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+
+
+aside{
+	width: 30%;
+	padding: 10px;
+	float: left;
+	margin: 0;
+}
+
+#content{
+	background: #B9AFAC;
+	margin: 0;
+	border-radius: 10px 10px 0 0;
+}
+
+form{
+	padding: 10px;
+}
+
+label{
+	display: inline-block;
+	width:  60px;
+	color:  rgb(20, 20, 20);
+	font-weight: bold;
+}
+
+.entrada{
+	width: 120px;
+}
+
+aside h2{
+	padding: 10px;
+	margin: 0;
+	border-radius: 10px 10px 0 0;
+	background: #282929;
+	text-align: center;
+    color: aliceblue;
+    font-size: 16px;
+}
+
+.boton{
+	border: solid black 2px;
+    background:rgb(226, 204, 8);
+    padding: 3px 8px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 12px;
+	margin-left: 70px;
+	cursor: pointer;
+}
+
+#operaciones{
+    background: #3b3a3a;
+	margin-top: 10px;
+	border-radius: 0;
+    width: 100%;
+	padding: 0;
+	float: left;
+    text-decoration: none;
+	color: azure;
+    
+}
+
+.tit{
+    border-radius: 0 0 0 0;
+	background: #282929;
+	text-align: center;
+    text-decoration: none;
+   	color: yellow;
+	
+}
+
+#enlaces{
+    text-align: center;
+    text-decoration: none;
+    color: #5e5b5b;
+    
+}
+
+aside div a{
+	
+	color: rgb(122, 120, 120);
+	text-decoration: none;
+	border-bottom: 1px solid rgb(122, 120, 120);
+	display: block;
+	
+}
+
+footer{
+	background: #2e302f;
+	clear: both;
+    border-radius: 0 0 20px 20px;
+}
+
+.contacto{
+	padding: 10px;
+}
+
+.contacto p{
+	color:  #fff;
+	text-align: center;
+}
+
+
